@@ -128,19 +128,9 @@ int ListOrder_L(LinkList head)
 	LinkList cmp, cmpp, mov;
 
 	// ListPint_L2(head);
-
 	cmp = head->next->next;
 	cmpp = head->next;
-	// if (cmpp->data > cmp->data) {
-	// 	cmpp->next = cmp->next;
-	// 	cmp->next = head->next;
-	// 	head->next = cmp;
-	// 	cmp = cmpp->next;
-	// }
-	//
-	//
-	// cmp = head->next->next->next;
-	// cmpp = head->next->next;
+
 	do
 	{
 		// ListPint_L2(head);
